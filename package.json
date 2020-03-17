@@ -1,0 +1,24 @@
+{
+  "name": "lifetool",
+  "version": "1.0.0",
+  "description": "A tool for generating .life files from PNGs",
+  "main": "index.js",
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "author": "HNKS",
+  "license": "MIT",
+  "dependencies": {
+    "fs-extra": "^8.1.0",
+    "jimp": "^0.9.5",
+    "yargs": "^15.3.1"
+  },
+  "devDependencies": {
+    "@types/fs-extra": "^8.1.0",
+    "@types/node": "^13.9.1",
+    "@types/yargs": "^15.0.4"
+  }
+}
